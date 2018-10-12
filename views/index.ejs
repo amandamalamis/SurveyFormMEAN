@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Counter </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="stylesheets/style.css" rel="stylesheet">
+    </head>
+<body>
+    <div class= main>
+    <h1> Coding Dojo Survey</h1>
+    <form action= '/result' method='POST'>
+            <h2> Take this awesome Coding Dojo Survey!</h2>
+            <div class= boxes>
+            Your Name:
+            <input type="text" id="name" name="name" ><br>
+        
+            Dojo Location: 
+            <select name='location'>
+                 <option value='Paris'>Paris</option>
+                 <option value='MilkyWay'>MilkyWay</option>
+                 <option value='Chicago'>Chicago</option>
+                 <option value='Santorini'>Santorini</option>
+                 <option value='USA'>USA</option>
+                 <option value='NewYork'>NewYork</option>
+                 <option value='Milan'>Milan</option>
+                 <option value='Orlando'>Orlando</option>
+            </select><br>
+
+            Favorite Language:
+            <select name='language'>
+                    <option value='Python'>Python</option>
+                    <option value='JavaScript'>JavaScript</option>
+                    <option value='C#'>C#</option>
+                    <option value='C++'>C++</option>
+                    <option value='MEAN'>MEAN</option>
+                    <option value='Ruby'>Ruby</option>
+                    <option value='HTML'>HTML</option>
+                    <option value='CSS'>CSS</option>
+            </select> <br>
+
+            Comment : <br>
+            <textarea name='message'></textarea>
+            <br>
+            <input type='submit' value='SUBMIT'>
+           
+    </form>
+    </div>
+  
+    
+</body>
+
+</html>
